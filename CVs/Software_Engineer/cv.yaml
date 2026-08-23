@@ -1,0 +1,179 @@
+cv:
+  name: "XXXXX"
+  location: "Malmö, Sweden"
+  email: "XXX@gmail.com"
+  phone: "+46 79 *** ***"
+  social_networks:
+    - network: "LinkedIn"
+      username: "***"
+  sections:
+    summary:
+      - "- Software Engineer with 9+ years of experience designing and building
+        scalable backend services and APIs using Go and C++. Experienced in
+        microservices, event-driven architecture, distributed systems, and
+        cloud-native technologies, with a growing focus on full-stack
+        development and product security."
+      - "- Collaborative and team-oriented, with experience working closely with
+        cross-functional teams in Agile environments."
+    skills:
+      - label: ""
+        details: "- **Languages**: Go, C++, JavaScript"
+      - label: ""
+        details: "- **Backend & APIs**: Microservices, REST, gRPC (_project-based_),
+          Kafka, Authentication/Authorization (OAuth 2.0, OIDC, JWT)"
+      - label: ""
+        details: "- **Databases**: MySQL, PostgreSQL (_project-based_)"
+      - label: ""
+        details: "- **Cloud & DevOps**: Linux, AWS, Azure, Docker, Kubernetes, CI/CD
+          (GitHub Actions, GitLab CI, Jenkins)"
+      - label: ""
+        details: "- **Observability**: Prometheus, Grafana, Datadog"
+      - label: ""
+        details: "- **Security**: OWASP Top 10, DevSecOps, SBOM, SAST/DAST"
+    experience:
+      - company: ""
+        position: IKEA, SWEDEN | Software Engineer Intern (AppSec Focus)
+        location:
+        start_date: "2026-03"
+        end_date: "present"
+        summary: _IKEA is a global home furnishing company, with a presence in markets
+          around the world, aiming to create a better everyday life for many
+          people._
+        highlights:
+          - >-
+            Integrate security into the SDLC by **conducting threat modeling**
+            and implementing **SLSA Level 2 controls in the CI/CD pipeline** to
+            strengthen software supply chain security.
+          - >-
+            **Integrated OWASP ZAP** baseline and API scans **into CI/CD**
+            pipelines for **2 projects**, catching vulnerabilities at the PR
+            stage.
+          - >-
+            Automated **SBOM generation, dependency scanning, and license
+            compliance** across **40+ repositories and 5+** teams via **GitHub
+            Actions** workflow.
+
+            _**Technologies**: JavaScript, SBOM, GitHub Actions, OWASP (Top 10,
+            ASVS, SAMM), NIST 800-218, Microsoft Azure_.
+      - company: ""
+        position: "Career Break"
+        start_date: "2025-11"
+        end_date: "2026-03"
+        highlights:
+          - "Family relocation; used the transition period to sharpen technical
+            skills, study for the **Developing Secure Software certification**
+            and actively interview for software engineering roles."
+      - company: ""
+        position: MONEY FORWARD, VIETNAM | Senior Software Engineer
+        location:
+        start_date: "2023-12"
+        end_date: "2025-11"
+        summary: _Money Forward is a leading Japanese fintech company providing
+          financial management services for individuals and SaaS solutions for
+          businesses._
+        highlights:
+          - Developed and maintained **cloud-native Go services** managing
+            master data for multi-tenant SaaS applications, ensuring **data
+            consistency** from upstream to downstream systems **via a Change
+            Data Capture (CDC)** pipeline built on **MySQL binlog, Debezium, and
+            Kafka**.
+          - Led a backend team in **optimizing system performance** through
+            **SQL query tuning, code refactoring, and architectural redesign**,
+            enabling the system to efficiently **handle tenants with 5M+
+            records**.
+          - Designed and implemented a **data rollback solution** that
+            reconstructs pre-integration data **from audit logs using AWS SQS
+            and background workers**, **ensuring 100% data integrity** during
+            new application integrations.
+          - Integrated **feature flags** into trunk-based development workflows,
+            **reducing release cycles from months to bi-weekly** deployments.
+          - >-
+            Established **engineering culture** within the developer team **via
+            weekly code reviews, Datadog monitoring sessions, and mentoring of
+            new engineers**.
+
+            _**Technologies**: Microservices, Linux, Go, Frontend basic
+            (HTML/CSS/Javascript), GitHub, Kafka, Redis, MySQL (RDS), AWS,
+            Docker, Kubernetes, DataDog, CircleCI, ArgoCD._
+      - company: ""
+        position: COC COC, VIETNAM | Software Engineer
+        location:
+        start_date: "2019-09"
+        end_date: "2023-12"
+        summary: _Coc Coc is one of the most popular Chromium-based browsers in Vietnam
+          with approximately 4 million Daily Active Users (DAU)._
+        highlights:
+          - Maintain a **high throughput event processing pipeline** (including
+            asynchronous fraud-detection) for **millions of click/view events**,
+            **using Kafka and ClickHouse** for scalable ingestion and analytics.
+          - Built a **CI/CD pipelines using Jenkins and GitLab CI** ensuring
+            consistent and reliable releases.
+          - >-
+            **Mentored two junior engineers**, improving onboarding and team
+            productivity.
+
+            _**Technologies**: Monolithic Architecture, Linux, Go, Python, C++,
+            MySQL (RDS), AWS, ClickHouse, Kafka, Redis, Gitlab, Jenkins,
+            Prometheus, Grafana._
+      - company: ""
+        position: HUMAX, VIETNAM | Software Engineer
+        location:
+        start_date: "2016-06"
+        end_date: "2019-05"
+        summary: _Humax is one of the world's largest manufacturers of digital set-top
+          box and home gateway._
+        highlights:
+          - >-
+            Develop a **secure bootloader** and **hardened set-top box systems**
+            for secure production deployments.
+          - >-
+            Implemented **secure application upgrade** mechanisms via USB/HTTP,
+            ensuring safe, reliable, and tamper-resistant firmware updates.
+
+            _**Technologies**: C/C++, Linux, Python._
+    education:
+      - institution: "Hanoi University of Science and Technology (HUST)"
+        area: "Electronics and Computer Engineering"
+        degree: "BEng"
+        location: "Hanoi, Vietnam"
+        start_date: "2011-09"
+        end_date: "2016-07"
+        highlights:
+          - "GPA: 3.2/4 (Very-good)"
+    projects:
+      - name: Multi-tenant Audit Logging System -
+          [GitHub](https://github.com/Haevnen/audit-logging-api)
+        summary:
+        highlights:
+          - >-
+            Designed and built a multi-tenant, role-based access control (RBAC)
+            audit logging API, supporting real-time log streaming, search,
+            export, archival, and log cleanup features.
+
+            _**Technologies**: Go, PostgreSQL/TimescaleDB, OpenSearch, S3/SQS,
+            and async workers._
+        start_date: 2025-09
+        end_date: 2025-10
+      - name: JIRA-like Project Management System -
+          [GitHub](https://github.com/Haevnen/p2m_be) |
+          [Website](https://sharpstudio.id.vn)
+        summary:
+        highlights:
+          - >-
+            Designed and built an API-driven backend system from scratch,
+            implementing authentication and authorization, ticket management,
+            audit logging, real-time collaboration, and workload data export for
+            payroll calculation. The system is currently used by a team of 15
+            members in a production environment.
+
+            _**Technologies**: Go, MySQL, Docker Compose, GitHub Actions, and
+            cloud deployment._
+        start_date: 2024-07
+        end_date: 2024-10
+    certifications:
+      - >-
+        - Developing Secure Software - LFD121 (2026)
+      - >-
+        - AWS Certified Solutions Architect - Associate (2025)
+  custom_connections: []
+  website:
