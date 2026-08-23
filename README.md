@@ -14,7 +14,7 @@ _Resume builder for academics and engineers, deployed at [rendercv.com](https://
 Write your CV or resume as YAML, then run RenderCV,
 
 ```bash
-rendercv render John_Doe_CV.yaml
+docker run --rm -v "$PWD":/work -u "$(id -u):$(id -g)" -e HOME=/tmp -w /work rendercv-local render cv.yaml --dont-generate-markdown --dont-generate-html --dont-generate-png --design design.yaml
 ```
 
 and get a PDF with perfect typography.
