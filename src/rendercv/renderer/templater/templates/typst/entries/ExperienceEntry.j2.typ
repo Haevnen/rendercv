@@ -25,4 +25,5 @@
 {% endfor %}
   ],
 {% endif %}
+  first-row-fill: rgb("#FAF2F2"),
 )

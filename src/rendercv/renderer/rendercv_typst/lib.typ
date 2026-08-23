@@ -232,7 +232,12 @@
   }
 }
 
-#let regular-entry(main-column, date-and-location-column, main-column-second-row: none) = {
+#let regular-entry(
+  main-column,
+  date-and-location-column,
+  main-column-second-row: none,
+  first-row-fill: none,
+) = {
   metadata("skip-content-area")
 
   context {
@@ -302,12 +307,23 @@
           )
         } else {
           if repr(main-column) != "[ ]" or repr(date-and-location-column) != "[ ]" {
-            grid(
+            let first-row = grid(
               columns: (1fr, entries-date-and-location-width),
               column-gutter: entries-space-between-columns,
               align: (start-align, typography-date-and-location-column-alignment),
               main-column, date-and-location-column,
             )
+            if first-row-fill != none {
+              block(
+                fill: first-row-fill,
+                inset: (top: 4pt, bottom: 4pt, left: 4pt, right: 4pt),
+                width: 100%,
+              )[
+                #first-row
+              ]
+            } else {
+              first-row
+            }
           }
           set align(start-align)
           main-column-second-row
