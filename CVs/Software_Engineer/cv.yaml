@@ -22,6 +22,8 @@ cv:
         details: "- **Backend & APIs**: Microservices, REST, gRPC (_project-based_),
           Kafka, Authentication/Authorization (OAuth 2.0, OIDC, JWT)"
       - label: ""
+        details: "- **Networking**: TCP/IP, DNS, HTTP/HTTPS"
+      - label: ""
         details: "- **Databases**: MySQL, PostgreSQL (_project-based_)"
       - label: ""
         details: "- **Cloud & DevOps**: Linux, AWS, Azure, Docker, Kubernetes, CI/CD
@@ -32,7 +34,7 @@ cv:
         details: "- **Security**: OWASP Top 10, DevSecOps, SBOM, SAST/DAST"
     experience:
       - company: ""
-        position: IKEA, SWEDEN | Software Engineer Intern (AppSec Focus)
+        position: Inter IKEA, Sweden | Software Engineer Intern (Application Security)
         location:
         start_date: "2026-03"
         end_date: "present"
@@ -41,7 +43,7 @@ cv:
           people._
         highlights:
           - >-
-            Integrate security into the SDLC by **conducting threat modeling**
+            Integrated security into the SDLC by **conducting threat modeling**
             and implementing **SLSA Level 2 controls in the CI/CD pipeline** to
             strengthen software supply chain security.
           - >-
@@ -60,11 +62,9 @@ cv:
         start_date: "2025-11"
         end_date: "2026-03"
         highlights:
-          - "Family relocation; used the transition period to sharpen technical
-            skills, study for the **Developing Secure Software certification**
-            and actively interview for software engineering roles."
+          - "Family relocation; improve technical skills, and study for the **Developing Secure Software certification**."
       - company: ""
-        position: MONEY FORWARD, VIETNAM | Senior Software Engineer
+        position: MONEY FORWARD, Vietnam | Senior Software Engineer
         location:
         start_date: "2023-12"
         end_date: "2025-11"
@@ -96,18 +96,17 @@ cv:
             (HTML/CSS/Javascript), GitHub, Kafka, Redis, MySQL (RDS), AWS,
             Docker, Kubernetes, DataDog, CircleCI, ArgoCD._
       - company: ""
-        position: COC COC, VIETNAM | Software Engineer
+        position: COC COC, Vietnam | Software Engineer
         location:
         start_date: "2019-09"
         end_date: "2023-12"
         summary: _Coc Coc is one of the most popular Chromium-based browsers in Vietnam
           with approximately 4 million Daily Active Users (DAU)._
         highlights:
-          - Maintain a **high throughput event processing pipeline** (including
+          - Maintained a **high throughput event processing pipeline** (including
             asynchronous fraud-detection) for **millions of click/view events**,
             **using Kafka and ClickHouse** for scalable ingestion and analytics.
-          - Built a **CI/CD pipelines using Jenkins and GitLab CI** ensuring
-            consistent and reliable releases.
+          - Automated releases across **4 services** by building and maintaining **CI/CD pipelines using Jenkins and GitLab CI**.
           - >-
             **Mentored two junior engineers**, improving onboarding and team
             productivity.
@@ -116,7 +115,7 @@ cv:
             MySQL (RDS), AWS, ClickHouse, Kafka, Redis, Gitlab, Jenkins,
             Prometheus, Grafana._
       - company: ""
-        position: HUMAX, VIETNAM | Software Engineer
+        position: HUMAX, Vietnam | Software Engineer
         location:
         start_date: "2016-06"
         end_date: "2019-05"
@@ -124,7 +123,7 @@ cv:
           box and home gateway._
         highlights:
           - >-
-            Develop a **secure bootloader** and **hardened set-top box systems**
+            Developed a **secure bootloader** and **hardened set-top box systems**
             for secure production deployments.
           - >-
             Implemented **secure application upgrade** mechanisms via USB/HTTP,
@@ -177,3 +176,4 @@ cv:
         - AWS Certified Solutions Architect - Associate (2025)
   custom_connections: []
   website:
+  headline: Senior Software Engineer | Go, C++, JavaScript | Cloud & Distributed Systems
