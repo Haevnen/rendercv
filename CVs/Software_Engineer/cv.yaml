@@ -3,6 +3,7 @@ cv:
   location: "Malmö, Sweden"
   email: "XXX@gmail.com"
   phone: "+46 79 *** ***"
+  photo: "profile_picture.png"
   social_networks:
     - network: "LinkedIn"
       username: "***"
