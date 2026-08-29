@@ -8,61 +8,56 @@ cv:
       username: "***"
   sections:
     summary:
-      - "- Software Engineer with 9+ years of experience designing and building
-        scalable backend services and APIs using Go and C++. Experienced in
-        microservices, event-driven architecture, distributed systems, and
-        cloud-native technologies, with a growing focus on full-stack
-        development and product security."
-      - "- Collaborative and team-oriented, with experience working closely with
-        cross-functional teams in Agile environments."
+      - "- Software Engineer with 9+ years of experience building
+        scalable services in Go, C++. Experienced in cloud-native microservices,
+        event-driven architecture, distributed systems, CI/CD, containerization."
+      - "- Collaborative and team-oriented engineer, with experience working closely with
+        cross-functional teams in Agile and DevOps environments."
     skills:
       - label: ""
         details: "- **Languages**: Go, C++, JavaScript"
       - label: ""
-        details: "- **Backend & APIs**: Microservices, REST, gRPC (_project-based_),
-          Kafka, Authentication/Authorization (OAuth 2.0, OIDC, JWT)"
+        details: "- **Backend & APIs**: Microservices, REST, Kafka, Authentication/Authorization (OAuth 2.0, JWT)"
       - label: ""
-        details: "- **Networking**: TCP/IP, DNS, HTTP/HTTPS"
+        details: "- **Frontend**: Basic (HTML/CSS/Javascript)"
       - label: ""
         details: "- **Databases**: MySQL, PostgreSQL (_project-based_)"
       - label: ""
-        details: "- **Cloud & DevOps**: Linux, AWS, Azure, Docker, Kubernetes, CI/CD
-          (GitHub Actions, GitLab CI, Jenkins)"
+        details: "- **DevOps**: Linux, AWS, Docker, Kubernetes,
+          Terraform, CI/CD (GitHub Actions, GitLab CI, Jenkins)"
       - label: ""
         details: "- **Observability**: Prometheus, Grafana, Datadog"
       - label: ""
-        details: "- **Security**: OWASP Top 10, DevSecOps, SBOM, SAST/DAST"
+        details: "- **DevSecOps/Security**: Secure SDLC, SBOM, SAST/DAST, SCA, OWASP Top 10, license compliance"
     experience:
       - company: ""
-        position: Inter IKEA, Sweden | Software Engineer Intern (Application Security)
+        position: IKEA, Sweden | Software Engineer Intern (Application Security)
         location:
         start_date: "2026-03"
         end_date: "present"
-        summary: _IKEA is a global home furnishing company, with a presence in markets
-          around the world, aiming to create a better everyday life for many
-          people._
+        summary: ""
         highlights:
           - >-
-            Integrated security into the SDLC by **conducting threat modeling**
+            Integrated security into the SDLC by **running STRIDE threat modeling**
             and implementing **SLSA Level 2 controls in the CI/CD pipeline** to
-            strengthen software supply chain security.
+            strengthen software supply-chain security.
           - >-
-            **Integrated OWASP ZAP** baseline and API scans **into CI/CD**
-            pipelines for **2 projects**, catching vulnerabilities at the PR
+            **Added OWASP ZAP** baseline and API scans **to CI/CD**
+            for **2 projects**, catching vulnerabilities at the pull-request
             stage.
           - >-
-            Automated **SBOM generation, dependency scanning, and license
-            compliance** across **40+ repositories and 5+** teams via **GitHub
-            Actions** workflow.
+            Standardized **SBOM generation, SCA, and license
+            compliance** across **40+ repositories and 5+** teams using **GitHub
+            Actions**.
 
             _**Technologies**: JavaScript, SBOM, GitHub Actions, OWASP (Top 10,
             ASVS, SAMM), NIST 800-218, Microsoft Azure_.
       - company: ""
         position: "Career Break"
         start_date: "2025-11"
-        end_date: "2026-03"
+        end_date: "2026-02"
         highlights:
-          - "Family relocation; improve technical skills, and study for the **Developing Secure Software certification**."
+          - "Took a planned career break to relocate with my family, strengthen my technical skills, and prepare for the **Developing Secure Software certification**"
       - company: ""
         position: MONEY FORWARD, Vietnam | Senior Software Engineer
         location:
@@ -72,24 +67,17 @@ cv:
           financial management services for individuals and SaaS solutions for
           businesses._
         highlights:
-          - Developed and maintained **cloud-native Go services** managing
-            master data for multi-tenant SaaS applications, ensuring **data
-            consistency** from upstream to downstream systems **via a Change
-            Data Capture (CDC)** pipeline built on **MySQL binlog, Debezium, and
-            Kafka**.
-          - Led a backend team in **optimizing system performance** through
-            **SQL query tuning, code refactoring, and architectural redesign**,
-            enabling the system to efficiently **handle tenants with 5M+
-            records**.
+          - Developed **cloud-native Go services** managing
+            master data for multi-tenant SaaS applications, and maintaining a **CDC pipeline using MySQL binlog, Debezium, and Kafka** to **synchronize data reliably** across upstream and downstream systems.
+          - Led a 4-engineer backend team to **optimize system performance** via
+            **SQL tuning, code refactoring**, enabling the system to handle **tenants with 5M+ records**.
           - Designed and implemented a **data rollback solution** that
             reconstructs pre-integration data **from audit logs using AWS SQS
-            and background workers**, **ensuring 100% data integrity** during
+            and background workers**, **preserving 100% data integrity** during
             new application integrations.
-          - Integrated **feature flags** into trunk-based development workflows,
-            **reducing release cycles from months to bi-weekly** deployments.
           - >-
-            Established **engineering culture** within the developer team **via
-            weekly code reviews, Datadog monitoring sessions, and mentoring of
+            Strengthened **engineering practices** within the team through
+            **weekly code reviews, Datadog monitoring sessions, and mentoring of
             new engineers**.
 
             _**Technologies**: Microservices, Linux, Go, Frontend basic
@@ -103,10 +91,10 @@ cv:
         summary: _Coc Coc is one of the most popular Chromium-based browsers in Vietnam
           with approximately 4 million Daily Active Users (DAU)._
         highlights:
-          - Maintained a **high throughput event processing pipeline** (including
-            asynchronous fraud-detection) for **millions of click/view events**,
-            **using Kafka and ClickHouse** for scalable ingestion and analytics.
+          - Maintained a **high throughput Kafka pipeline** processing **millions of click/view events**,
+            leveraging ClickHouse for near real-time analytics.
           - Automated releases across **4 services** by building and maintaining **CI/CD pipelines using Jenkins and GitLab CI**.
+          - Managed cloud infrastructure with Terraform to standardize environments and reduce deployment drift.
           - >-
             **Mentored two junior engineers**, improving onboarding and team
             productivity.
@@ -117,7 +105,7 @@ cv:
       - company: ""
         position: HUMAX, Vietnam | Software Engineer
         location:
-        start_date: "2016-06"
+        start_date: "2016-07"
         end_date: "2019-05"
         summary: _Humax is one of the world's largest manufacturers of digital set-top
           box and home gateway._
@@ -136,9 +124,14 @@ cv:
         degree: "BEng"
         location: "Hanoi, Vietnam"
         start_date: "2011-09"
-        end_date: "2016-07"
+        end_date: "2016-06"
         highlights:
           - "GPA: 3.2/4 (Very-good)"
+    certifications:
+      - >-
+        - Developing Secure Software - LFD121 (2026)
+      - >-
+        - AWS Certified Solutions Architect - Associate (2025)
     projects:
       - name: Multi-tenant Audit Logging System -
           [GitHub](https://github.com/Haevnen/audit-logging-api)
@@ -159,21 +152,15 @@ cv:
         summary:
         highlights:
           - >-
-            Designed and built an API-driven backend system from scratch,
-            implementing authentication and authorization, ticket management,
-            audit logging, real-time collaboration, and workload data export for
-            payroll calculation. The system is currently used by a team of 15
-            members in a production environment.
+            Designed and built an API-driven backend system from scratch and
+            deployed it to production, where it is actively used by a team of 15
+            members. Providing core features authentication and
+            authorization, ticket management, audit logging and workload data export for payroll calculation.
 
             _**Technologies**: Go, MySQL, Docker Compose, GitHub Actions, and
             cloud deployment._
         start_date: 2024-07
         end_date: 2024-10
-    certifications:
-      - >-
-        - Developing Secure Software - LFD121 (2026)
-      - >-
-        - AWS Certified Solutions Architect - Associate (2025)
   custom_connections: []
   website:
-  headline: Senior Software Engineer | Go, C++, JavaScript | Cloud & Distributed Systems
+  headline: Senior Software Engineer | Backend, Cloud & DevOps

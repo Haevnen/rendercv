@@ -5,7 +5,7 @@ design:
     top_margin: 0.3in
     bottom_margin: 0.3in
     left_margin: 0.6in
-    right_margin: 0.6in
+    right_margin: 0.3in
     show_footer: false
     show_top_note: false
   colors:
@@ -19,7 +19,7 @@ design:
     top_note: rgb(128, 128, 128)
   typography:
     line_spacing: 0.8em
-    alignment: justified
+    alignment: left
     date_and_location_column_alignment: right
     font_family:
       body: XCharter
@@ -56,7 +56,7 @@ design:
     space_below_headline: 0.4cm
     space_below_connections: 0.5cm
     connections:
-      phone_number_format: E164
+      phone_number_format: international
       hyperlink: true
       show_icons: true
       display_urls_instead_of_usernames: true
@@ -69,7 +69,7 @@ design:
     space_below: 0.2cm
   sections:
     allow_page_break: true
-    space_between_regular_entries: 1.5em
+    space_between_regular_entries: 1.2em
     space_between_text_based_entries: 0.2em
     show_time_spans_in: []
   entries:
@@ -86,7 +86,7 @@ design:
       bullet: ●
       nested_bullet: ◦
       space_left: 0.15cm
-      space_above: 0.2cm
+      space_above: 0.1cm
       space_between_items: 0cm
       space_between_bullet_and_text: 0.3em
   templates:
